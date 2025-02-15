@@ -1,0 +1,57 @@
+#consent-popup, 
+#notification-popup {
+    text-align: right;
+    direction: rtl;
+    position: fixed;
+    bottom: -100%;
+    right: 30px;
+    background: #fff;
+    padding: 0px 50px;
+    max-width: 360px;
+    border: solid 2px;
+    border-radius: 5px;
+    z-index: 9999999;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+#consent-popup *, 
+#notification-popup * {
+    font-family: "Amiri" !important;
+}
+
+#consent-popup button,
+#notification-popup button {
+    margin-bottom: 16px !important;
+    outline: none !important;
+    padding: 5px 15px !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    font-size: 1rem !important;
+    color: #fff !important;
+}
+
+#consent-popup button.btn-primary,
+#notification-popup button.btn-primary {
+    background-color: steelblue !important;
+    border: 1px solid rgb(36, 98, 149) !important;
+}
+
+#consent-popup button.btn-primary:hover,
+#notification-popup button.btn-primary:hover {
+    background-color: rgb(36, 98, 149) !important;
+}
+
+#consent-popup button.btn-danger,
+#notification-popup button.btn-danger {
+    background-color: tomato !important;
+    border: 1px solid rgb(185, 57, 35) !important;
+}
+
+#consent-popup button.btn-danger:hover,
+#notification-popup button.btn-danger:hover {
+    background-color: rgb(185, 57, 35) !important;
+}
